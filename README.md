@@ -5,3 +5,11 @@ Pada halaman data siswa ditampilkan informasi dalam bentuk tabel, sedangkan pena
 
 Template ini dirancang untuk memudahkan administrator dalam mengelola data siswa secara terstruktur, 
 serta dilengkapi dengan navigasi yang terhubung antar halaman dan tampilan yang sederhana, rapi, dan mudah digunakan.
+
+## Screenshot
+
+![Landing](Screenshot/landing.png)
+![Login](Screenshot/login.png)
+![Dashboard](Screenshot/dashboard.png)
+![Data Siswa](Screenshot/data-siswa.png)
+![Form](Screenshot/form-siswa.png)
