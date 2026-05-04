@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f6f9ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(90deg, #2f6df6, #4a80f0);
+    padding: 14px 0;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* BUTTON */
+.btn-login {
+    background: white;
+    color: #2f6df6;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 130px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    background: 
+        linear-gradient(rgba(47, 109, 246, 0.35), rgba(47, 109, 246, 0.45)),
+        url('../resource/sekolah.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+
+.hero-logo {
+    width: 230px;
+    margin-bottom: 15px;
+    display: block;
+
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+}
+
+/* HERO TEXT */
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+.hero p {
+    color: #e6eeff;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 0;
+    text-align: center;
+    background: #f6f9ff;
+}
+
+/* SELINGAN */
+.section.alt {
+    background: linear-gradient(to bottom, #e0ebff, #d4e3ff);
+}
+
+/* ABOUT */
+.about-wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.about-text {
+    text-align: center;
+}
+
+/* LIST */
+.list {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.list li {
+    margin: 8px 0;
+}
+
+
+/* FOOTER */
+footer {
+    background: #2f6df6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

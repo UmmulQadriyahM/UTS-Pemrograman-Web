@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* LAYOUT */
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: linear-gradient(#2f6df6, #4a80f0);
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.sidebar a:hover,
+.sidebar .active {
+    background: rgba(255,255,255,0.2);
+}
+
+/* MAIN */
+.main {
+    flex: 1;
+    background: linear-gradient(135deg, #eef4ff, #dbe9ff);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOPBAR */
+.topbar {
+    padding: 20px 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+}
+
+/* TOPBAR TEXT */
+.topbar h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1f3c88;
+    margin-bottom: 5px;
+}
+
+.topbar p {
+    color: #666;
+    font-size: 15px;
+}
+
+/* CONTENT */
+.content {
+    padding: 30px;
+}
+
+.content h3 {
+    font-size: 40px; 
+    font-weight: 600;
+    color: #1f3c88;
+    margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #2f6df6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #2f6df6;
+    color: white;
+}
+
+td, th {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f4f8ff;
+}
+
+
+
+/* FORM CARD */
+.form-card {
+    max-width: 600px;
+
+    margin: 0;
+
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* LABEL */
+form label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    color: #1f3c88;
+}
+
+/* INPUT & SELECT */
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid #d6e2ff;
+    border-radius: 8px;
+
+    background: #f8fbff;
+    transition: 0.2s;
+}
+
+form input:focus,
+form select:focus {
+    background: white;
+    border-color: #2f6df6;
+}
+
+/* BUTTON FORM */
+form button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+
+    background: linear-gradient(90deg, #2f6df6, #5a8dfc);
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+/* KHUSUS FORM SAJA */
+.form-card .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.form-card .button-group button {
+    width: 50% !important;
+    margin-top: 0;
+}
+
+/* tombol batal */
+.form-card .btn-cancel {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, #6ea8fe, #8bb9ff);
+    color: white;
+
+    border-radius: 8px;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+/* hover */
+.form-card .btn-cancel:hover {
+    background: linear-gradient(90deg, #5a8dfc, #7aa7ff);
+}
+
+
+.form-card .button-group button,
+.form-card .btn-cancel {
+    height: 45px;
+}
