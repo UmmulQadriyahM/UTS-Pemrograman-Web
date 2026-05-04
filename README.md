@@ -8,8 +8,8 @@ serta dilengkapi dengan navigasi yang terhubung antar halaman dan tampilan yang 
 
 ## Screenshot
 
-![Landing](Screenshot/landing.png)
+![Index](Screenshot/landing-page.png)
 ![Login](Screenshot/login.png)
 ![Dashboard](Screenshot/dashboard.png)
-![Data Siswa](Screenshot/data-siswa.png)
+![Siswa](Screenshot/data-siswa.png)
 ![Form](Screenshot/form-siswa.png)
