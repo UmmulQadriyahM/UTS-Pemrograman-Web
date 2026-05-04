@@ -12,4 +12,4 @@ serta dilengkapi dengan navigasi yang terhubung antar halaman dan tampilan yang 
 ![Login](Screenshot/login.png)
 ![Dashboard](Screenshot/dashboard.png)
 ![Siswa](Screenshot/tabel-siswa.png)
-![Form](Screenshot/form-siswa.png)
+![Form](Screenshot/form.siswa.png)
