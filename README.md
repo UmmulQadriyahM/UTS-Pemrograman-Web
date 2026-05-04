@@ -11,5 +11,5 @@ serta dilengkapi dengan navigasi yang terhubung antar halaman dan tampilan yang 
 ![Index](Screenshot/landing-page.png)
 ![Login](Screenshot/login.png)
 ![Dashboard](Screenshot/dashboard.png)
-![Siswa](Screenshot/data-siswa.png)
+![Siswa](Screenshot/tabel-siswa.png)
 ![Form](Screenshot/form-siswa.png)
