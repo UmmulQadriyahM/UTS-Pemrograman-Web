@@ -9,12 +9,12 @@
 <!-- HEADER -->
 <header class="header">
     <div class="container nav">
-        <h2> UPTD SMPN 17 Pukkiseng</h2>
-        <a href="login.html" class="btn-login">Login</a>
+        <h2>UPTD SMPN 17 Pukkiseng</h2>
+        <a href="login.php" class="btn-login">Login</a>
     </div>
 </header>
 
-<!-- HERO  -->
+<!-- HERO -->
 <section class="hero">
     <img src="resource/logo.png" class="hero-logo" alt="Logo Sekolah">
     <h1>Selamat Datang di SMP 17 Pukkiseng</h1>
@@ -28,13 +28,13 @@
 
         <div class="about-wrapper">
             <p class="about-text">
-                UPTD SMP Negeri 17 Sinjai merupakan sekolah menengah pertama negeri 
-                yang berlokasi di Pukkiseng, Desa Bulu Tellue, Kecamatan Bulupoddo, 
-                Kabupaten Sinjai, Sulawesi Selatan. Sekolah ini telah terakreditasi 
-                <strong>B</strong> dan berkomitmen dalam memberikan pendidikan yang 
-                berkualitas serta membentuk karakter siswa yang unggul. Dengan 
-                mengusung motto <strong>MATIRO LINO</strong> (Maju, Tekun, Indah, Religius), 
-                SMP Negeri 17 Sinjai terus berupaya menciptakan lingkungan belajar 
+                UPTD SMP Negeri 17 Sinjai merupakan sekolah menengah pertama negeri
+                yang berlokasi di Pukkiseng, Desa Bulu Tellue, Kecamatan Bulupoddo,
+                Kabupaten Sinjai, Sulawesi Selatan. Sekolah ini telah terakreditasi
+                <strong>B</strong> dan berkomitmen dalam memberikan pendidikan yang
+                berkualitas serta membentuk karakter siswa yang unggul. Dengan
+                mengusung motto <strong>MATIRO LINO</strong> (Maju, Tekun, Indah, Religius),
+                SMP Negeri 17 Sinjai terus berupaya menciptakan lingkungan belajar
                 yang positif dan inspiratif bagi seluruh siswa.
             </p>
         </div>
@@ -62,9 +62,11 @@
         <ul class="list">
             <li>Email: smp17pukkiseng@email.com</li>
             <li>Alamat: Pukkiseng, Indonesia</li>
-             <li>  Facebook: <a href="https://web.facebook.com/p/UPTD-SMPN-17-Sinjai-100057257237729/?_rdc=1&_rdr#" target="_blank">
-                 UPTD SMPN 17 Sinjai
-             </a>
+            <li>
+                Facebook:
+                <a href="https://web.facebook.com/p/UPTD-SMPN-17-Sinjai-100057257237729/?_rdc=1&_rdr#" target="_blank">
+                    UPTD SMPN 17 Sinjai
+                </a>
             </li>
         </ul>
     </div>
@@ -72,7 +74,7 @@
 
 <!-- FOOTER -->
 <footer>
-    <p>© 2026 SMP 17 Pukkiseng</p>
+    <p>© 2026 UPTD SMPN 17 Pukkiseng</p>
 </footer>
 
 </body>

@@ -1,0 +1,206 @@
+/* =====================================
+   HALAMAN KELAS
+===================================== */
+
+/* Table */
+.table{
+
+    width:100%;
+
+    table-layout:fixed;
+
+}
+
+/* Header tabel */
+.table thead th{
+
+    background:#dbe9ff !important;
+
+    color:#1f3c88 !important;
+
+    font-weight:700;
+
+    border-bottom:2px solid #c8dafc;
+
+    padding:15px;
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+/* Isi tabel */
+.table tbody td{
+
+    padding:15px;
+
+    vertical-align:middle;
+
+    color:#2f3b52;
+
+}
+
+/* No */
+.table th:nth-child(1),
+.table td:nth-child(1){
+    text-align:center;
+    width:70px;
+}
+
+/* Nama */
+.table th:nth-child(2),
+.table td:nth-child(2){
+    text-align:left;
+    padding-left:22px;
+    width:220px;
+}
+
+/* NISN */
+.table th:nth-child(3),
+.table td:nth-child(3){
+    text-align:center;
+    width:170px;
+}
+
+/* Kelas */
+.table th:nth-child(4),
+.table td:nth-child(4){
+    text-align:center;
+    width:90px;
+}
+
+/* JK */
+.table th:nth-child(5),
+.table td:nth-child(5){
+    text-align:center;
+    width:80px;
+}
+
+/* Alamat */
+.table th:nth-child(6),
+.table td:nth-child(6){
+    text-align:left;
+    padding-left:22px;
+    width:240px;
+}
+
+/* Aksi */
+.table th:nth-child(7),
+.table td:nth-child(7){
+    text-align:center;
+    width:120px;
+}
+
+/* Tombol aksi */
+.table td .btn{
+    margin:0 3px;
+}
+
+/* =====================================
+   TOMBOL KEMBALI
+===================================== */
+
+.btn-outline-primary{
+
+    background:linear-gradient(90deg,#2f6df6,#4f86ff) !important;
+
+    border:none !important;
+
+    color:#fff !important;
+
+    font-weight:600;
+
+    border-radius:999px !important;
+
+    padding:10px 22px !important;
+
+    box-shadow:0 8px 18px rgba(47,109,246,.25);
+
+    transition:all .3s ease;
+
+}
+
+.btn-outline-primary:hover{
+
+    background:linear-gradient(90deg,#2563eb,#3b82f6) !important;
+
+    color:#fff !important;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 24px rgba(47,109,246,.35);
+
+}
+
+.btn-outline-primary i{
+
+    margin-right:6px;
+
+    transition:.3s;
+
+}
+
+.btn-outline-primary:hover i{
+
+    transform:translateX(-3px);
+
+}
+
+/* =====================================
+   TOMBOL TAMBAH SISWA
+===================================== */
+
+.btn-primary{
+
+    background:linear-gradient(90deg,#2f6df6,#4f86ff) !important;
+
+    border:none !important;
+
+    color:#fff !important;
+
+    font-weight:600;
+
+    border-radius:999px !important;
+
+    padding:10px 22px !important;
+
+    box-shadow:0 8px 18px rgba(47,109,246,.25);
+
+    transition:all .3s ease;
+
+}
+
+.btn-primary:hover{
+
+    background:linear-gradient(90deg,#2563eb,#3b82f6) !important;
+
+    color:#fff !important;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 24px rgba(47,109,246,.35);
+
+}
+
+.btn-primary:active{
+
+    transform:translateY(0);
+
+    box-shadow:0 6px 14px rgba(47,109,246,.25);
+
+}
+
+.btn-primary i{
+
+    margin-right:6px;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover i{
+
+    transform:rotate(90deg);
+
+}

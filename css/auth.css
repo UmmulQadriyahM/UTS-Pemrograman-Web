@@ -33,7 +33,7 @@ body {
 .login-container h2 {
     margin-bottom: 5px;
     color: #1f3c88;
-    letter-spacing: 0.3px; /* tambah elegan dikit */
+    letter-spacing: 0.3px; 
 }
 
 .login-container p {

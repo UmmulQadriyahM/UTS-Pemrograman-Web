@@ -1,0 +1,225 @@
+/* =====================================
+   HALAMAN DATA SISWA
+===================================== */
+
+.card-link{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+    height:100%;
+}
+
+.card-link:hover{
+    color:inherit;
+}
+
+.class-card{
+
+    border:none !important;
+
+    border-radius:22px !important;
+
+    min-height:320px;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+}
+
+.class-card:hover{
+
+    transform:
+        translateY(-8px)
+        scale(1.02);
+
+    box-shadow:
+        0 18px 35px rgba(47,109,246,.18)!important;
+
+}
+
+.class-card .card-body{
+
+    padding:30px 22px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    height:100%;
+
+}
+
+/* ======================
+   ICON
+====================== */
+
+.icon-circle{
+
+    width:75px;
+    height:75px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+
+    font-size:30px;
+
+    transition:.35s;
+
+}
+
+.class-card:hover .icon-circle{
+
+    transform:
+        rotate(-8deg)
+        scale(1.08);
+
+}
+
+/* ======================
+   JUDUL
+====================== */
+
+.class-card h3{
+
+    font-weight:700;
+
+    margin-top:18px;
+
+    margin-bottom:8px;
+
+}
+
+/* ======================
+   TOTAL SISWA
+====================== */
+
+.student-total{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#1f3c88;
+
+    line-height:1;
+
+    margin-top:10px;
+
+}
+
+/* ======================
+   TEXT
+====================== */
+
+.class-card p{
+
+    color:#6c757d;
+
+    margin-top:6px;
+
+    margin-bottom:22px;
+
+}
+
+/* ======================
+   CTA
+====================== */
+
+.card-action{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-top:10px;
+
+}
+
+.card-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:10px 22px;
+
+    border-radius:999px;
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+
+}
+
+.class-card:hover .card-btn{
+
+    transform:scale(1.05);
+
+    box-shadow:0 12px 24px rgba(0,0,0,.18);
+
+}
+
+.card-btn i{
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.class-card:hover .card-btn i{
+
+    transform:translateX(4px);
+
+}
+
+/* ======================
+   RESPONSIVE
+====================== */
+
+@media (max-width:991px){
+
+    .class-card{
+
+        min-height:300px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .class-card{
+
+        min-height:290px;
+
+    }
+
+    .student-total{
+
+        font-size:38px;
+
+    }
+
+}
